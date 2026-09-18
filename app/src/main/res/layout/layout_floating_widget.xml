@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bubble"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_arrow_down"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_floating_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="0 KB/s"
+        android:textColor="@color/speed_download"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="14dp"
+        android:layout_marginHorizontal="8dp"
+        android:background="@color/divider_color" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_arrow_up"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_floating_ul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="0 KB/s"
+        android:textColor="@color/speed_upload"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

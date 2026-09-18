@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">NetSpeed Pro</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_app_usage">Apps</string>
+    <string name="nav_speed_test">Speed Test</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="title_live_speed">Live Internet Speed</string>
+    <string name="download_speed">Download</string>
+    <string name="upload_speed">Upload</string>
+    <string name="today_usage">Today\'s Data Usage</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="wifi_data">Wi-Fi Data</string>
+    <string name="sim1">SIM 1</string>
+    <string name="sim2">SIM 2</string>
+    <string name="service_active">Tracking Active</string>
+    <string name="service_inactive">Tracking Paused</string>
+    <string name="tap_to_toggle">Tap to start/stop live speed monitoring</string>
+    <string name="network_details">Connected Network</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="link_speed">Link Speed</string>
+    <string name="frequency">Frequency</string>
+    <string name="carrier">Carrier</string>
+    <string name="network_type">Network Type</string>
+
+    <!-- App Usage -->
+    <string name="title_app_usage">App-Wise Data Consumption</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_yesterday">Yesterday</string>
+    <string name="filter_month">This Month</string>
+    <string name="permission_usage_needed">Usage Access Permission Required</string>
+    <string name="permission_usage_desc">To track data usage per application, please grant Usage Access in Android Settings.</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="no_apps_found">No app data usage found for this period.</string>
+
+    <!-- Speed Test -->
+    <string name="title_speed_test">Speed Test</string>
+    <string name="btn_start_test">START TEST</string>
+    <string name="btn_testing">TESTING...</string>
+    <string name="ping_label">PING</string>
+    <string name="jitter_label">JITTER</string>
+    <string name="peak_download">PEAK DL</string>
+    <string name="peak_upload">PEAK UL</string>
+    <string name="speed_test_ready">Press Start to run an instant latency and bandwidth test</string>
+
+    <!-- History -->
+    <string name="title_history">Data Usage History</string>
+    <string name="weekly_overview">Last 7 Days Usage</string>
+    <string name="monthly_logs">30 Days Usage Log</string>
+    <string name="total_all_time">Total Recorded</string>
+    <string name="btn_export_csv">Export CSV</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings &amp; Alerts</string>
+    <string name="pref_data_limit_title">Daily Mobile Data Limit</string>
+    <string name="pref_data_limit_desc">Receive warning alerts when reaching your daily data plan</string>
+    <string name="pref_limit_amount">Set Limit (GB/day):</string>
+    <string name="pref_alerts_title">Smart Data Warnings</string>
+    <string name="pref_alert_80">Notify at 80% used</string>
+    <string name="pref_alert_90">Notify at 90% used</string>
+    <string name="pref_alert_100">Notify at 100% used</string>
+    <string name="pref_floating_bubble_title">Floating Speed Bubble</string>
+    <string name="pref_floating_bubble_desc">Display an always-on-top draggable speed badge</string>
+    <string name="pref_speed_unit_title">Speed Display Unit</string>
+    <string name="pref_start_boot_title">Auto-Start on Device Boot</string>
+    <string name="pref_start_boot_desc">Keep speed monitoring active after restarting phone</string>
+    <string name="pref_hide_lockscreen_title">Hide on Lock Screen</string>
+    <string name="pref_amoled_title">AMOLED Dark Mode</string>
+
+    <!-- Notifications -->
+    <string name="channel_speed_name">Live Speed Indicator</string>
+    <string name="channel_speed_desc">Persistent notification showing live upload/download speed and daily data usage</string>
+    <string name="channel_alerts_name">Data Limit Alerts</string>
+    <string name="channel_alerts_desc">Urgent alerts when approaching daily data limit</string>
+    <string name="alert_data_warning_title">⚠️ Daily Mobile Data Warning</string>
+    <string name="alert_data_warning_body" formatted="false">You have consumed %s of your daily %s data limit!</string>
+</resources>

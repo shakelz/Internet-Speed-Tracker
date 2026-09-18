@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Brand & Theme Colors -->
+    <color name="brand_primary">#00E5FF</color>       <!-- Electric Neon Cyan -->
+    <color name="brand_primary_variant">#00B0FF</color>
+    <color name="brand_secondary">#7C4DFF</color>     <!-- Neon Violet -->
+    <color name="brand_accent">#FFAB00</color>
+
+    <!-- Speed Colors -->
+    <color name="speed_download">#00E676</color>     <!-- Vivid Neon Green -->
+    <color name="speed_upload">#FF9100</color>       <!-- Vibrant Amber Orange -->
+    <color name="speed_ping">#00E5FF</color>         <!-- Cyan -->
+    <color name="speed_gauge_track">#263238</color>  <!-- Deep Slate -->
+
+    <!-- Backgrounds & Surfaces (Dark Theme) -->
+    <color name="bg_main">#0B0E14</color>            <!-- Deep Obsidian Black -->
+    <color name="bg_card">#151922</color>            <!-- Elevated Dark Slate -->
+    <color name="bg_card_elevated">#1E2430</color>   <!-- High Contrast Surface -->
+    <color name="bg_bubble">#E6151922</color>        <!-- Glassmorphic Bubble -->
+
+    <!-- Text & Icon Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#90A4AE</color>
+    <color name="text_tertiary">#607D8B</color>
+    <color name="divider_color">#263238</color>
+
+    <!-- Status & Alerts -->
+    <color name="alert_warning">#FFB300</color>
+    <color name="alert_danger">#FF5252</color>
+    <color name="status_connected">#00E676</color>
+    <color name="status_disconnected">#FF5252</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
